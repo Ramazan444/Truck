@@ -1,0 +1,313 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #2F343A;;
+}
+.navigate{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+.navigate-box{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigate-part{
+    width: 44%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navigate-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFF;
+}
+.navigate-word{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+    margin-top: 4%;
+}
+.navigate-dot{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+    margin-top: 9%;
+}
+.navigate-line{
+    padding-left: .1%;
+    padding-right: .1%;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+.navigate-logo{
+    width: 11%;
+    height: 50%;
+    margin-top: 6%;
+}
+.navigate-mark{
+    width: 11%;
+    height: 44%;
+    margin-top: 5%;
+}
+.blanket{
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 13%;
+    padding-bottom: 13%;
+    margin-top: 1%;
+}
+.blanket-border{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #C8A35F;
+    padding-bottom: 3%;
+    margin: auto;
+}
+.blanket-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFF;
+    text-align: center;
+}
+.blanket-text{
+    width: 77%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+    margin: auto;
+}
+.abroad{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 8%;
+}
+.abroad-box{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+}
+.abroad-line{
+    width: 22%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-color: #C8A35F;
+    background-color: #C8A35F;
+}
+.abroad-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFF;
+}
+.abroad-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF;
+}
+.abroad-button{
+    width: 33%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #C8A35F;
+    border-color: #C8A35F;
+    color: #FFF;
+    margin-top: 8%;
+}
+.abroad-switcher-one{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.abroad-switcher-two{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 44%;
+}
+.switcher-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #C8A35F;
+}
+.abroad-track{
+    width: 22%;
+    height: 11%;
+}
+.switcher-image{
+    width: 8%;
+    height: 22%;
+    margin-top: 6%;
+}
+.abroad-track{
+    width: 22%;
+    margin-top: 11%;
+}
+.service{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+.service-line{
+    width: 5%;
+    padding-bottom: .3%;
+    padding-top: .3%;
+    border-color: #C8A35F;
+    background-color: #C8A35F;
+    margin-left: 6%;
+}
+.service-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFF;
+    margin-left: 6%;
+}
+.service-box{
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 3%;
+}
+.service-containers{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.service-container{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid #FFF;
+}
+.service-container:hover{
+    background-color: #C8A35F;
+}
+.service-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 8%;
+}
+.service-icon{
+    width: 11%;
+    height: 33%;
+    margin: auto;
+}
+.company{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+.company-box{
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+}
+.company-line{
+    width: 11%;
+    padding-bottom: .8%;
+    padding-top: .8%;
+    border-color: #C8A35F;
+    background-color: #C8A35F;
+    margin-left: 7%;
+}
+.company-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFF;
+    margin-left: 7%;
+}
+.company-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFF;
+    width: 44%;
+    margin-left: 7%;
+}
+.company-containers-one{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFF;
+}
+.company-container-one{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.company-containers-two{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFF;
+}
+.company-container-two{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.container-word{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #2F343A;
+    text-align: center;
+}
+.container-track{
+    width: 100%;
+    height: 100%;
+}
+.map{
+    width: 100%;
+    height: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.right-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFF;
+    text-align: center;
+}
